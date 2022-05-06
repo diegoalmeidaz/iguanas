@@ -1,0 +1,155 @@
+/* con el margin 0 le digo al html para que use todo el espacio */
+
+body {
+    margin: 0%;
+    width: 100%;
+    background-color: black;
+    
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 0.001em;
+    font-size: 200%;
+    vertical-align: middle;
+    
+    
+}
+
+.intro {
+    background-color: black;
+}
+
+.intro img {
+    width: 100%;
+    background-color: black;
+}
+
+
+
+.desarrollo {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    width:100%;
+    display: block;
+    
+    }
+
+
+.desarrollo p {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding: 4em;
+    font-size: 80%;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.desarrollo img {
+    display: inline-block;
+    width: 30%;
+    padding: 1em;
+    vertical-align: middle;
+    font-family: sans-serif;
+    
+}
+
+.caracteristicas {
+    text-align: center;
+    margin: 0px;
+    
+    padding: 1em;
+    color: white;
+    background-color: rgb(33, 25, 25);
+    font-family: sans-serif;
+
+}
+
+.caracteristicas i {
+    display: block;
+    padding: 0.5em;
+}
+
+.icono {
+    width: 25%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.caracteristicas h2 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.galeria {
+    display: block;
+    background-color: black;
+    padding: 1em;
+    margin: auto;
+    border: black;
+    align-items: center;
+    text-align: center;
+
+}
+
+.galeriaiguana {
+    display: inline-block;
+    width: 20%;
+    padding: 3em;
+}
+
+.galeriaiguana img {
+    width: 100%;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    color: white;
+    background-color: rgb(33, 25, 25);
+    margin: auto;
+    padding: 1.5em;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+
+
+/* (parte comentario 1 (eliminar para habilitar)
+
+menu {
+    background-color: gray;
+    text-align: center;
+}
+
+/* con este margin de abajo le digo al html que no tenga espacio, se come todo lo que pueda ser espacio */
+
+/* (parte comentario 2 (eliminar esta linea para habilitar comando))
+
+.menu ul {
+    margin: 0%;
+}
+
+menu li {
+    display: inline-block;
+}
+
+/* el padding lo que hace es un espacio entre el div de menu y el div body */
+
+/* (parte comentario 3 (eliminar esta linea para habilitar comando))
+
+.division {
+    background-color: yellow;
+    height: 10px;
+    padding: 7px;
+}
